@@ -28,11 +28,11 @@
     下载 [ta-lib-0.4.0-src.tar.gz](http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz) :
     ```
     $ untar and cd
-    $ ./configure --prefix=/usr
+    $ ./configure --prefix=/usr/local
     $ make
     $ sudo make install
     ```
- ### 推荐使用Python3.5以上以及pip3
+ ### 推荐使用Python3.6以上以及pip3
  ### Python 依赖:
  ```
  pip install -r requirements.txt 

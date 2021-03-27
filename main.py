@@ -1,11 +1,9 @@
 # -*- encoding: UTF-8 -*-
 
-import utils
 import logging
-import work_flow
+
 import settings
-import schedule
-import time
+import work_flow
 
 logging.basicConfig(format='%(asctime)s %(message)s', filename='sequoia.log')
 logging.getLogger().setLevel(logging.INFO)
